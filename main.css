@@ -61,7 +61,33 @@ body {
     width: 1250px;
 }
 .hero-text {
-    
+    text-align: center;
 }
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.info-container {
+    display: flex;
+    padding: 0px 200px 200px 200px;
+}
+.info-pics {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+
+}
+.info-pics img {
+    border-radius: 10px;
+}
+.info-pics figcaption {
+    font-size: 18px;
+    margin: 10px;
+    padding: 5px;
+}
+
+
 
 
