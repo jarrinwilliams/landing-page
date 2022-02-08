@@ -1,14 +1,13 @@
-html {
-    box-sizing: border-box;
-}
 body {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 .header-container {
     display: flex;
     justify-content: space-between;
     background: #1f2937;
+    padding: 20px 100px;
 }
 .header-links-container {
     display: flex;
@@ -26,3 +25,34 @@ body {
     margin: 10px;
     text-decoration: none;
 }
+.hero-container {
+    background: #1f2937;
+    display: flex;
+    padding: 100px;
+
+}
+#hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 5px;
+}
+.hero-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px;
+}
+.hero-btn {
+    background: #3882f6;
+    font-size: 20px;
+    width: 150px;
+    color: #F9FAF8;
+    padding:10px;
+    border: none;
+    border-radius: 10px;
+}
+.hero-img {
+    margin: 10px;
+}
+
+
