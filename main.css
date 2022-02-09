@@ -122,7 +122,6 @@ body {
 }
 .call-to-action-box {
     display: flex;
-    justify-content: space-between ;
     align-items: center;
     padding: 2rem 20rem;
     background: #3882f6;
@@ -131,8 +130,8 @@ body {
 .call-to-text {
     font-size: 1.5rem;
     color: white;
-    padding: 2rem;
-    margin: 4rem;
+    margin-right: 10rem;
+    padding: 4rem;
     
 }
 .call-to-text h3 {
@@ -149,7 +148,16 @@ body {
     border: solid;
     padding: 1rem 4rem;
     border-radius: 1rem;
-    margin: 2rem;
+    margin: 0rem;
+}
+.footer {
+    text-align: center;
+    background: #1f2937;
+    padding: 3rem;
+}
+.footer p {
+    font-size: 1.8rem;
+    color: #e5e7eb;
 }
 
 
